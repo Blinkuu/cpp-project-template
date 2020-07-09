@@ -3,8 +3,9 @@
 
 namespace mylib {
 
-  int fun() {
-    return 0;
-  }
-
+int fun()
+{
+  return 0;
 }
+
+}// namespace mylib

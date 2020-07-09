@@ -1,6 +1,7 @@
 #pragma once
 
-class Application {
-  public:
-    int exec();
+class Application
+{
+public:
+  int exec();
 };

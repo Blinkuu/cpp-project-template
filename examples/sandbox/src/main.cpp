@@ -1,6 +1,7 @@
 #include <sandbox/application.hpp>
 
-int main() {
+int main()
+{
   Application app;
   return app.exec();
 }
