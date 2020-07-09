@@ -9,6 +9,8 @@ target_include_directories(mylib
   $<INSTALL_INTERFACE:include/>
 )
 
+target_compile_features(mylib PUBLIC cxx_std_17)
+
 install(TARGETS mylib EXPORT mylibTargets
   LIBRARY DESTINATION lib
   ARCHIVE DESTINATION lib
