@@ -15,3 +15,4 @@ constexpr unsigned int factorial(unsigned int number)
 int fun();
 
 }// namespace mylib
+
