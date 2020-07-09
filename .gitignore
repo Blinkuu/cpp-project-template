@@ -412,6 +412,9 @@ nbdist/
 # CMake
 cmake-build-*/
 
+# CLion
+.idea/
+
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
